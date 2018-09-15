@@ -1,0 +1,253 @@
+/*styles the center text box*/
+body{
+  text-align: center;
+  color: #fff;
+  background-image: url("theBackground.jpg");
+  font-family: 'Montserrat', sans-serif;
+}
+/*.center-text{
+  display: block;
+  margin-top: 5.0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #fff;
+  border-width: medium;
+  border-style: solid;
+  width: 75%;
+}*/
+
+
+/*.center-text{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}*/
+/*positions the user icon at top of page*/
+#user-icon{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  color: #fff;
+}
+#other-user-icon{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  color: #fff;
+}
+/*positions the user input box and label*/
+.login {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+}
+
+.login-label{
+  font-size: 2em;
+}
+
+.login-input{
+  font-size: 1em;
+}
+
+/*positions button*/
+.button{
+  display: block;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding: 1em;*/
+  font-size: 1em;
+  text-align: center;
+}
+
+/*set up sizing for login button*/
+#button-AC{
+  height:4em;
+  width:8em;
+}
+/*id for sign up for new account*/
+#sign {
+  margin: 2em;
+  color: #fff;
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+}
+#sign:hover{
+  color: #D9D9d9;
+}
+/*makes all links white font*/
+a{
+  color:#fff;
+}
+/*makes button font consistent with page*/
+button{
+  font-family: 'Montserrat', sans-serif;
+}
+button:hover{
+  background-color: #D9D9D9;
+}
+
+#advanced-settings-screen{
+  position: relative;
+}
+/*positioning settings icon*/
+#setting-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/*so that when hovered over there is consistency*/
+#setting-icon:hover{
+  color: #D9D9D9;
+}
+
+/*positions the statuses as a whole*/
+#status{
+  display: block;
+  margin-top: 8em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*position the labels for the status*/
+/*.status-label{
+  margin-left: 5em;
+  margin-top: 10em;
+  font-size: 1.5em;
+  width: .75em;
+}*/
+
+/*formats the status of the door and the light status */
+/*.status-box{
+  margin-left: 5em;
+  border-style: solid;
+  border-width: thin;
+  border-color: #fff;
+  padding: 1em;
+  font-size: 1.5em;
+}*/
+
+/*general formatting for all the buttons used*/
+.button{
+  display: block;
+  width: 6em;
+  background-color: #fff;
+  color: #900C3f;
+  /*padding: 1em;*/
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
+
+/*improves spacing on status page*/
+#status-door,
+#status-light{
+  border-color: #fff;
+  border-width: thick;
+  border-style: solid;
+  text-align:
+  float:right;
+}
+
+/*improves format of create account button*/
+#account-button{
+  padding: .5em;
+}
+
+/*formatting on done advacned settings button*/
+#done-advanced{
+  position: relative;
+  margin-top: 1em;
+}
+
+/*formatting on autoclose on auto close button*/
+#autoclose-button{
+  display: inline;
+  padding: .2em;
+  font-size: 1em;
+  height: 2em;
+  width: 3em;
+}
+
+/*formatting on autoclose on auto off button*/
+#autooff-button{
+  display: inline;
+  padding: .2em;
+  font-size: 1em;
+
+}
+
+/*formatting of divs in advanced settings*/
+.advanced{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.0em;
+  text-align: center;
+  height: 2em;
+  margin-top: .2em;
+}
+
+/*formats our slidebar prototype*/
+.slidebar{
+  height: .1em;
+  width: 75%;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+}
+
+/*formats the prototype of slidebar value display*/
+.value{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+/*formats the logout button on the status page*/
+#logout{
+  margin-top: 1em;
+  float: right;
+  margin-right: 1.1em;
+}
+
+/*formats the back button on the status page*/
+#back-button{
+  float: left;
+  margin-left: .5em;
+  margin-top: .5em;
+  height: 1em;
+  width: 2em;
+  font-size: 1em;
+}
+
+.mdl-slider{
+  width: 75%;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+}
+
+.settingsSection{
+  padding: 1em;
+  border-style: solid;
+  border-color: #fff;
+  border-width: thin;
+}
+
+.stat{
+  margin: auto;
+  margin-top: 10%;
+}
